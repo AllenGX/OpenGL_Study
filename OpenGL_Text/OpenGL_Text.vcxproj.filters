@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{5872c999-7f89-459c-b38f-1fa2ed95cd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Advanced-GLSL">
+      <UniqueIdentifier>{90d3ea6c-1eef-4de1-9621-b0130a51c4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hello_window">
+      <UniqueIdentifier>{7f4b90f5-665a-4693-84a0-f747f883de63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hello_triangle">
+      <UniqueIdentifier>{546934cd-d819-40d6-860e-07f8904037e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hello_triangle\homework">
+      <UniqueIdentifier>{e63a26a8-b552-4cd3-bbf1-cf555e5139e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders">
+      <UniqueIdentifier>{a2d7e030-211b-4c51-a47d-ab9e70683c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\homework">
+      <UniqueIdentifier>{bbb321cf-ec35-4191-a4e8-4acf0c67199f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\homework\partice-2">
+      <UniqueIdentifier>{4abf22d8-dfa1-45ad-833a-9bcb711a1a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\homework\partice-1">
+      <UniqueIdentifier>{35b62a8a-0006-4cd6-ae5f-6a71a1ec1e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\homework\partice-3">
+      <UniqueIdentifier>{f852e4c1-39d2-45be-8578-eff8f9b072fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture">
+      <UniqueIdentifier>{9acbf2ae-90ec-4a97-8aff-a766f0b4149c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture\texture-work-1">
+      <UniqueIdentifier>{3641402a-e8ef-43a8-bf67-ab7c46ce522d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture\texture-work-2">
+      <UniqueIdentifier>{30fd2e02-e64f-4c5b-85a7-1117f4edc226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture\texture-work-3">
+      <UniqueIdentifier>{b78ff1d6-a1b1-471e-8ec5-da0c8ba8b0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture\texture-work-4">
+      <UniqueIdentifier>{0bfea64d-9d41-4407-af39-c800aa5ce277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\exchange">
+      <UniqueIdentifier>{19dd1899-b735-4880-898b-7ec4fef74190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\exchange\exchange-partice-1">
+      <UniqueIdentifier>{b8860183-9f72-4f96-872f-6255bfa4c5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\exchange\exchange-partice-2">
+      <UniqueIdentifier>{245f77de-bb47-4403-a98e-f289663ec030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\coordinate">
+      <UniqueIdentifier>{069967f4-6ae8-4823-9f26-9f9eab85d0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\coordinate\coordinate-partice-1">
+      <UniqueIdentifier>{4fdca0af-6120-48a5-8052-2291de4b11c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\camera">
+      <UniqueIdentifier>{0570ae02-310b-42f9-9c1d-f31fabcb24f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\camera\camera-partice-2">
+      <UniqueIdentifier>{d570f4ab-eea9-4dbb-80fd-53b08bb880f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\camera\camera-partice-1">
+      <UniqueIdentifier>{09351ef3-fe5d-4e52-929f-1f58097fea04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Light-color">
+      <UniqueIdentifier>{0114f579-55a2-4d66-b6fd-dd667b97ee5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Based-Light">
+      <UniqueIdentifier>{964fa7e1-029c-4555-82a6-207a314735ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Based-Light\Base-Light-partice-1">
+      <UniqueIdentifier>{778e3583-53d2-4e52-8065-3e1f374d8998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Based-Light\Base-Light-partice-2">
+      <UniqueIdentifier>{d9e6a387-504e-4057-9c0d-05d3ee408567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Based-Light\Base-Light-partice-3">
+      <UniqueIdentifier>{999a9ed3-c219-4d7f-9243-1c23f9f4ab4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Based-Light\Base-Light-partice-4">
+      <UniqueIdentifier>{5c017fdd-cfda-4378-8019-160282ddee0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Materials">
+      <UniqueIdentifier>{93dc1f19-52a1-4a8d-82df-7974c9e2bd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Materials\Materials-partice-1">
+      <UniqueIdentifier>{083d6dfc-2302-4467-aeea-b40e66f199e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting maps">
+      <UniqueIdentifier>{fdab3271-bbff-4104-84ef-fbba9e4fe3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting maps\Lighting-maps-partice-1">
+      <UniqueIdentifier>{f712876a-428b-44b9-b3e5-6e30bf3a5a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting maps\Lighting-maps-partice-2">
+      <UniqueIdentifier>{0d545929-e7c8-4025-bfa8-d2bdbb44ee78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting maps\Lighting-maps-partice-3">
+      <UniqueIdentifier>{290dc32b-c3cb-4332-97ca-4d978823e298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting maps\Lighting-maps-partice-4">
+      <UniqueIdentifier>{9dc15cd1-8858-4550-98b7-017ed61692b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Light casters">
+      <UniqueIdentifier>{3a05be5a-989a-4ed5-95eb-9a63ffe8c23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Multiple-lights">
+      <UniqueIdentifier>{5dcdfe7f-0a7a-4219-8729-0840289ad34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Multiple-lights\Multiple-lights-partice-2">
+      <UniqueIdentifier>{acbb855a-8dbc-4263-b1ea-afd97727f271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Model">
+      <UniqueIdentifier>{ca8db207-909d-48f3-9277-cc3552444cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Depth-testing">
+      <UniqueIdentifier>{1f7ab28f-8d1f-497f-b216-cb443ed11e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stencil-testing">
+      <UniqueIdentifier>{ba12babd-6308-43e9-9f00-6fb8c0f25c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Blending">
+      <UniqueIdentifier>{3ba1aa6d-c078-4db7-b58d-bf37f523fe38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Face-culling">
+      <UniqueIdentifier>{3610596c-42f1-44cc-b6d5-faa7a9298233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framebuffers">
+      <UniqueIdentifier>{e5d8f15b-8c8b-42ab-ac78-cd36507069d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cubemaps">
+      <UniqueIdentifier>{45fa5812-dc35-48b0-a0d8-5ec560470e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cubemaps\Cubemaps-partice">
+      <UniqueIdentifier>{19c41235-f94e-4146-bd33-09d5944b0937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Geometry-Shader">
+      <UniqueIdentifier>{9581afa4-dd03-4508-b447-38d0d0cc9bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Instancing">
+      <UniqueIdentifier>{8debab67-7989-4e4c-9a87-c2eba81ba839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Instancing\Instancing-planet">
+      <UniqueIdentifier>{a3a880bf-e743-4d79-82f5-67e9ea66341a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Anti-Aliasing">
+      <UniqueIdentifier>{00c7502b-b587-4e08-9cb8-9d92553ff603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Advanced-Lighting">
+      <UniqueIdentifier>{a43ccb6d-0b35-4813-bfde-99117a47cab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Gamma-Correction">
+      <UniqueIdentifier>{db5a49ce-7d6c-4ff6-8756-c02a4f1edf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shadow-Mapping">
+      <UniqueIdentifier>{d54e3add-2853-4f50-a292-15e16b1cbae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Point Shadows">
+      <UniqueIdentifier>{6f53d47a-314c-48a4-b78c-12ee58667406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Normal-Mapping">
+      <UniqueIdentifier>{8378268a-3acd-4a77-9f41-4844898d170f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Parallax-Mapping">
+      <UniqueIdentifier>{9894860f-b673-4c51-976b-20d8cfb76f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\HDR">
+      <UniqueIdentifier>{8d3ce0d5-abeb-458a-a4c5-28ab9a15187a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bloom">
+      <UniqueIdentifier>{8041aef4-fd71-4da2-98c0-4514bead8e6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Advanced-GLSL\Advanced-GLSL.vs">
+      <Filter>源文件\Advanced-GLSL</Filter>
+    </None>
+    <None Include="Advanced-GLSL\Advanced-GLSL-blue.fs">
+      <Filter>源文件\Advanced-GLSL</Filter>
+    </None>
+    <None Include="Advanced-GLSL\Advanced-GLSL-green.fs">
+      <Filter>源文件\Advanced-GLSL</Filter>
+    </None>
+    <None Include="Advanced-GLSL\Advanced-GLSL-red.fs">
+      <Filter>源文件\Advanced-GLSL</Filter>
+    </None>
+    <None Include="Advanced-GLSL\Advanced-GLSL-yellow.fs">
+      <Filter>源文件\Advanced-GLSL</Filter>
+    </None>
+    <None Include="shaders\myshader.fs">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\myshader.vs">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\homework\mywork.fs">
+      <Filter>源文件\shaders\homework</Filter>
+    </None>
+    <None Include="shaders\homework\partice-1\mywork-1.fs">
+      <Filter>源文件\shaders\homework\partice-1</Filter>
+    </None>
+    <None Include="shaders\homework\partice-1\mywork-1.vs">
+      <Filter>源文件\shaders\homework\partice-1</Filter>
+    </None>
+    <None Include="shaders\homework\partice-2\mywork-2.fs">
+      <Filter>源文件\shaders\homework\partice-2</Filter>
+    </None>
+    <None Include="shaders\homework\partice-2\mywork-2.vs">
+      <Filter>源文件\shaders\homework\partice-2</Filter>
+    </None>
+    <None Include="shaders\homework\partice-3\mywork-3.fs">
+      <Filter>源文件\shaders\homework\partice-3</Filter>
+    </None>
+    <None Include="shaders\homework\partice-3\mywork-3.vs">
+      <Filter>源文件\shaders\homework\partice-3</Filter>
+    </None>
+    <None Include="texture\texture.fs">
+      <Filter>源文件\texture</Filter>
+    </None>
+    <None Include="texture\texture.vs">
+      <Filter>源文件\texture</Filter>
+    </None>
+    <None Include="texture\texture-work-1\texture-1.fs">
+      <Filter>源文件\texture\texture-work-1</Filter>
+    </None>
+    <None Include="texture\texture-work-4\texture-4.fs">
+      <Filter>源文件\texture\texture-work-4</Filter>
+    </None>
+    <None Include="exchange\exchange.fs">
+      <Filter>源文件\exchange</Filter>
+    </None>
+    <None Include="exchange\exchange.vs">
+      <Filter>源文件\exchange</Filter>
+    </None>
+    <None Include="coordinate\coordinate.fs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="coordinate\coordinate.vs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="camera\camera.fs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="camera\camera.vs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="Light-color\Light.fs">
+      <Filter>源文件\Light-color</Filter>
+    </None>
+    <None Include="Light-color\Light-color.fs">
+      <Filter>源文件\Light-color</Filter>
+    </None>
+    <None Include="Light-color\Light-color.vs">
+      <Filter>源文件\Light-color</Filter>
+    </None>
+    <None Include="Based-Light\Base-Light.fs">
+      <Filter>源文件\Based-Light</Filter>
+    </None>
+    <None Include="Based-Light\Base-Light.vs">
+      <Filter>源文件\Based-Light</Filter>
+    </None>
+    <None Include="Based-Light\Base-Light-partice-3\Base-Light-3.fs">
+      <Filter>源文件\Based-Light\Base-Light-partice-3</Filter>
+    </None>
+    <None Include="Based-Light\Base-Light-partice-3\Base-Light-3.vs">
+      <Filter>源文件\Based-Light\Base-Light-partice-3</Filter>
+    </None>
+    <None Include="Based-Light\Base-Light-partice-4\Base-Light-4.fs">
+      <Filter>源文件\Based-Light\Base-Light-partice-4</Filter>
+    </None>
+    <None Include="Based-Light\Base-Light-partice-4\Base-Light-4.vs">
+      <Filter>源文件\Based-Light\Base-Light-partice-4</Filter>
+    </None>
+    <None Include="Materials\materials.fs">
+      <Filter>源文件\Materials</Filter>
+    </None>
+    <None Include="Materials\materials.vs">
+      <Filter>源文件\Materials</Filter>
+    </None>
+    <None Include="Lighting maps\Lighting-maps.fs">
+      <Filter>源文件\Lighting maps</Filter>
+    </None>
+    <None Include="Lighting maps\Lighting-maps.vs">
+      <Filter>源文件\Lighting maps</Filter>
+    </None>
+    <None Include="Lighting maps\Lighting-maps-partice-2\Lighting-maps-partice-2.fs">
+      <Filter>源文件\Lighting maps\Lighting-maps-partice-2</Filter>
+    </None>
+    <None Include="Lighting maps\Lighting-maps-partice-4\Lighting-maps-partice-4.fs">
+      <Filter>源文件\Lighting maps\Lighting-maps-partice-4</Filter>
+    </None>
+    <None Include="Light casters\Light-casters.fs">
+      <Filter>源文件\Light casters</Filter>
+    </None>
+    <None Include="Light casters\Light-casters.vs">
+      <Filter>源文件\Light casters</Filter>
+    </None>
+    <None Include="Multiple-lights\Multiple-lights.fs">
+      <Filter>源文件\Multiple-lights</Filter>
+    </None>
+    <None Include="Multiple-lights\Multiple-lights.vs">
+      <Filter>源文件\Multiple-lights</Filter>
+    </None>
+    <None Include="Multiple-lights\Multiple-lights-partice-2\Multiple-lights-partice-2.fs">
+      <Filter>源文件\Multiple-lights\Multiple-lights-partice-2</Filter>
+    </None>
+    <None Include="Model\Model.fs">
+      <Filter>源文件\Model</Filter>
+    </None>
+    <None Include="Model\Model.vs">
+      <Filter>源文件\Model</Filter>
+    </None>
+    <None Include="Depth-testing\Depth-testing.fs">
+      <Filter>源文件\Depth-testing</Filter>
+    </None>
+    <None Include="Depth-testing\Depth-testing.vs">
+      <Filter>源文件\Depth-testing</Filter>
+    </None>
+    <None Include="Stencil-testing\shaderSingleColor.fs">
+      <Filter>源文件\Stencil-testing</Filter>
+    </None>
+    <None Include="Stencil-testing\shaderSingleColor.vs">
+      <Filter>源文件\Stencil-testing</Filter>
+    </None>
+    <None Include="Stencil-testing\Stencil-testing.fs">
+      <Filter>源文件\Stencil-testing</Filter>
+    </None>
+    <None Include="Stencil-testing\Stencil-testing.vs">
+      <Filter>源文件\Stencil-testing</Filter>
+    </None>
+    <None Include="Blending\Blending.fs">
+      <Filter>源文件\Blending</Filter>
+    </None>
+    <None Include="Blending\Blending.vs">
+      <Filter>源文件\Blending</Filter>
+    </None>
+    <None Include="Face-culling\Face-culling.fs">
+      <Filter>源文件\Face-culling</Filter>
+    </None>
+    <None Include="Face-culling\Face-culling.vs">
+      <Filter>源文件\Face-culling</Filter>
+    </None>
+    <None Include="Framebuffers\Framebuffers.fs">
+      <Filter>源文件\Framebuffers</Filter>
+    </None>
+    <None Include="Framebuffers\Framebuffers.vs">
+      <Filter>源文件\Framebuffers</Filter>
+    </None>
+    <None Include="Framebuffers\Framebuffers-screen.fs">
+      <Filter>源文件\Framebuffers</Filter>
+    </None>
+    <None Include="Framebuffers\Framebuffers-screen.vs">
+      <Filter>源文件\Framebuffers</Filter>
+    </None>
+    <None Include="Cubemaps\Cubemaps.fs">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="Cubemaps\Cubemaps.vs">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="Cubemaps\Cubemaps-box.fs">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="Cubemaps\Cubemaps-box.vs">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="Cubemaps\Cubemaps-partice\Cubemaps-partice.fs">
+      <Filter>源文件\Cubemaps\Cubemaps-partice</Filter>
+    </None>
+    <None Include="Cubemaps\Cubemaps-partice\Cubemaps-partice.vs">
+      <Filter>源文件\Cubemaps\Cubemaps-partice</Filter>
+    </None>
+    <None Include="Geometry-Shader\Geometry-Shader.fs">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </None>
+    <None Include="Geometry-Shader\Geometry-Shader.gs">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </None>
+    <None Include="Geometry-Shader\Geometry-Shader.vs">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </None>
+    <None Include="Geometry-Shader\Geometry-Shader-Explode.fs">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </None>
+    <None Include="Geometry-Shader\Geometry-Shader-Explode.gs">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </None>
+    <None Include="Geometry-Shader\Geometry-Shader-Explode.vs">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </None>
+    <None Include="Instancing\Instancing.fs">
+      <Filter>源文件\Instancing</Filter>
+    </None>
+    <None Include="Instancing\Instancing.vs">
+      <Filter>源文件\Instancing</Filter>
+    </None>
+    <None Include="Instancing\Instancing-planet\Instancing-planet.fs">
+      <Filter>源文件\Instancing\Instancing-planet</Filter>
+    </None>
+    <None Include="Instancing\Instancing-planet\Instancing-planet.vs">
+      <Filter>源文件\Instancing\Instancing-planet</Filter>
+    </None>
+    <None Include="Instancing\Instancing-planet\Instancing-rock.fs">
+      <Filter>源文件\Instancing\Instancing-planet</Filter>
+    </None>
+    <None Include="Instancing\Instancing-planet\Instancing-rock.vs">
+      <Filter>源文件\Instancing\Instancing-planet</Filter>
+    </None>
+    <None Include="Anti-Aliasing\Aliasing.fs">
+      <Filter>源文件\Anti-Aliasing</Filter>
+    </None>
+    <None Include="Anti-Aliasing\Aliasing.vs">
+      <Filter>源文件\Anti-Aliasing</Filter>
+    </None>
+    <None Include="Anti-Aliasing\Anti-Aliasing.fs">
+      <Filter>源文件\Anti-Aliasing</Filter>
+    </None>
+    <None Include="Anti-Aliasing\Anti-Aliasing.vs">
+      <Filter>源文件\Anti-Aliasing</Filter>
+    </None>
+    <None Include="Advanced-Lighting\Advanced-Lighting.fs">
+      <Filter>源文件\Advanced-Lighting</Filter>
+    </None>
+    <None Include="Advanced-Lighting\Advanced-Lighting.vs">
+      <Filter>源文件\Advanced-Lighting</Filter>
+    </None>
+    <None Include="Gamma-Correction\Gamma-Correction.fs">
+      <Filter>源文件\Gamma-Correction</Filter>
+    </None>
+    <None Include="Gamma-Correction\Gamma-Correction.vs">
+      <Filter>源文件\Gamma-Correction</Filter>
+    </None>
+    <None Include="Shadow-Mapping\Shadow.fs">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </None>
+    <None Include="Shadow-Mapping\Shadow.vs">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </None>
+    <None Include="Shadow-Mapping\Shadow-Mapping.fs">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </None>
+    <None Include="Shadow-Mapping\Shadow-Mapping.vs">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </None>
+    <None Include="Shadow-Mapping\Shadow-Mapping-simple.fs">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </None>
+    <None Include="Shadow-Mapping\Shadow-Mapping-simple.vs">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </None>
+    <None Include="Point Shadows\Point-Depth-Shadows.fs">
+      <Filter>源文件\Point Shadows</Filter>
+    </None>
+    <None Include="Point Shadows\Point-Depth-Shadows.gs">
+      <Filter>源文件\Point Shadows</Filter>
+    </None>
+    <None Include="Point Shadows\Point-Depth-Shadows.vs">
+      <Filter>源文件\Point Shadows</Filter>
+    </None>
+    <None Include="Point Shadows\Point-Shadows.fs">
+      <Filter>源文件\Point Shadows</Filter>
+    </None>
+    <None Include="Point Shadows\Point-Shadows.vs">
+      <Filter>源文件\Point Shadows</Filter>
+    </None>
+    <None Include="Normal-Mapping\Normal-Mapping.fs">
+      <Filter>源文件\Normal-Mapping</Filter>
+    </None>
+    <None Include="Normal-Mapping\Normal-Mapping.vs">
+      <Filter>源文件\Normal-Mapping</Filter>
+    </None>
+    <None Include="Parallax-Mapping\Parallax-Mapping.fs">
+      <Filter>源文件\Parallax-Mapping</Filter>
+    </None>
+    <None Include="Parallax-Mapping\Parallax-Mapping.vs">
+      <Filter>源文件\Parallax-Mapping</Filter>
+    </None>
+    <None Include="HDR\HDR.fs">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="HDR\HDR.vs">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="HDR\HDRshader.fs">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="HDR\HDRshader.vs">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="Bloom\Bloom.fs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom.vs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom-blur.fs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom-blur.vs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom-final.fs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom-final.vs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom-light.fs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="Bloom\Bloom-light.vs">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\OpenGL\Packages\src\glad.c" />
+    <ClCompile Include="Advanced-GLSL\Advanced-GLSL.cpp">
+      <Filter>源文件\Advanced-GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window\hello_window.cpp">
+      <Filter>源文件\hello_window</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle\hello_triangle.cpp">
+      <Filter>源文件\hello_triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle\homework\triangle-partice-1.cpp">
+      <Filter>源文件\hello_triangle\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle\homework\triangle-partice-2.cpp">
+      <Filter>源文件\hello_triangle\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle\homework\triangle-partice-3.cpp">
+      <Filter>源文件\hello_triangle\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\shader_class.cpp">
+      <Filter>源文件\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\shaders.cpp">
+      <Filter>源文件\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\homework\partice-1\partice-1.cpp">
+      <Filter>源文件\shaders\homework\partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\homework\partice-2\partice-2.cpp">
+      <Filter>源文件\shaders\homework\partice-2</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\homework\partice-3\partice-3.cpp">
+      <Filter>源文件\shaders\homework\partice-3</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture.cpp">
+      <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture-work-1\texture-1.cpp">
+      <Filter>源文件\texture\texture-work-1</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture-work-2\texture-2.cpp">
+      <Filter>源文件\texture\texture-work-2</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture-work-3\texture-3.cpp">
+      <Filter>源文件\texture\texture-work-3</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture-work-4\texture-4.cpp">
+      <Filter>源文件\texture\texture-work-4</Filter>
+    </ClCompile>
+    <ClCompile Include="exchange\exchange.cpp">
+      <Filter>源文件\exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="exchange\exchange-partice-2\exchange-2.cpp">
+      <Filter>源文件\exchange\exchange-partice-2</Filter>
+    </ClCompile>
+    <ClCompile Include="exchange\exchange-partice-1\exchange-1.cpp">
+      <Filter>源文件\exchange\exchange-partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate\coordinate.cpp">
+      <Filter>源文件\coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate\coordinate-partice-1\coordinate-1.cpp">
+      <Filter>源文件\coordinate\coordinate-partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\cameracpp.cpp">
+      <Filter>源文件\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera-partice-2\camera-partice-2.cpp">
+      <Filter>源文件\camera\camera-partice-2</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera-partice-1\camera-partice-1.cpp">
+      <Filter>源文件\camera\camera-partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Light-color\Light-color.cpp">
+      <Filter>源文件\Light-color</Filter>
+    </ClCompile>
+    <ClCompile Include="Based-Light\Based-Light.cpp">
+      <Filter>源文件\Based-Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Based-Light\Base-Light-partice-1\Base-Light-partice-1.cpp">
+      <Filter>源文件\Based-Light\Base-Light-partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Based-Light\Base-Light-partice-2\Base-Light-partice-2.cpp">
+      <Filter>源文件\Based-Light\Base-Light-partice-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Based-Light\Base-Light-partice-3\Base-Light-partice-3.cpp">
+      <Filter>源文件\Based-Light\Base-Light-partice-3</Filter>
+    </ClCompile>
+    <ClCompile Include="Based-Light\Base-Light-partice-4\Base-Light-partice-4.cpp">
+      <Filter>源文件\Based-Light\Base-Light-partice-4</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Materials.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Materials-partice-1\Materials-partice-1.cpp">
+      <Filter>源文件\Materials\Materials-partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting maps\Lighting-maps.cpp">
+      <Filter>源文件\Lighting maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-1\Lighting-maps-partice-1.cpp">
+      <Filter>源文件\Lighting maps\Lighting-maps-partice-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-2\Lighting-maps-partice-2.cpp">
+      <Filter>源文件\Lighting maps\Lighting-maps-partice-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-3\Lighting-maps-partice-3.cpp">
+      <Filter>源文件\Lighting maps\Lighting-maps-partice-3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-4\Lighting-maps-partice-4.cpp">
+      <Filter>源文件\Lighting maps\Lighting-maps-partice-4</Filter>
+    </ClCompile>
+    <ClCompile Include="Light casters\Light-casters.cpp">
+      <Filter>源文件\Light casters</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiple-lights\Multiple-lights.cpp">
+      <Filter>源文件\Multiple-lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiple-lights\Multiple-lights-partice-2\Multiple-lights-partice-2.cpp">
+      <Filter>源文件\Multiple-lights\Multiple-lights-partice-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Model.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Depth-testing\Depth-testing.cpp">
+      <Filter>源文件\Depth-testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Stencil-testing\Stencil-testing.cpp">
+      <Filter>源文件\Stencil-testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Blending\Blending.cpp">
+      <Filter>源文件\Blending</Filter>
+    </ClCompile>
+    <ClCompile Include="Face-culling\Face-culling.cpp">
+      <Filter>源文件\Face-culling</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffers\Framebuffers.cpp">
+      <Filter>源文件\Framebuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemaps\Cubemaps.cpp">
+      <Filter>源文件\Cubemaps</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemaps\Cubemaps-partice\Cubemaps-partice.cpp">
+      <Filter>源文件\Cubemaps\Cubemaps-partice</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry-Shader\Geometry-Shader.cpp">
+      <Filter>源文件\Geometry-Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Instancing\Instancing.cpp">
+      <Filter>源文件\Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="Instancing\Instancing-planet\Instancing-planet.cpp">
+      <Filter>源文件\Instancing\Instancing-planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Anti-Aliasing\Anti-Aliasing.cpp">
+      <Filter>源文件\Anti-Aliasing</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced-Lighting\Advanced-Lighting.cpp">
+      <Filter>源文件\Advanced-Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamma-Correction\Gamma-Correction.cpp">
+      <Filter>源文件\Gamma-Correction</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow-Mapping\Shadow-Mapping.cpp">
+      <Filter>源文件\Shadow-Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Point Shadows\Point-Shadows.cpp">
+      <Filter>源文件\Point Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal-Mapping\Normal-Mapping.cpp">
+      <Filter>源文件\Normal-Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallax-Mapping\Parallax-Mapping.cpp">
+      <Filter>源文件\Parallax-Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="HDR\HDR.cpp">
+      <Filter>源文件\HDR</Filter>
+    </ClCompile>
+    <ClCompile Include="Bloom\Bloom.cpp">
+      <Filter>源文件\Bloom</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

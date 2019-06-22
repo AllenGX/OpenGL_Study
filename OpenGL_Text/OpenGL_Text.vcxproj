@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{345F91F0-97E7-4B24-BD64-87AA67D408F5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenGLText</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\OpenGL\Packages\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\OpenGL\Packages\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>E:\OpenGL\Packages\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\OpenGL\Packages\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>E:\OpenGL\glm;$(ProjectDir);E:\OpenGL\assimp-3.1.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimpd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);E:\OpenGL\glm;E:\OpenGL\assimp-3.1.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimpd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Advanced-GLSL\Advanced-GLSL-blue.fs" />
+    <None Include="Advanced-GLSL\Advanced-GLSL-green.fs" />
+    <None Include="Advanced-GLSL\Advanced-GLSL-red.fs" />
+    <None Include="Advanced-GLSL\Advanced-GLSL-yellow.fs" />
+    <None Include="Advanced-GLSL\Advanced-GLSL.vs" />
+    <None Include="Advanced-Lighting\Advanced-Lighting.fs" />
+    <None Include="Advanced-Lighting\Advanced-Lighting.vs" />
+    <None Include="Anti-Aliasing\Aliasing.fs" />
+    <None Include="Anti-Aliasing\Aliasing.vs" />
+    <None Include="Anti-Aliasing\Anti-Aliasing.fs" />
+    <None Include="Anti-Aliasing\Anti-Aliasing.vs" />
+    <None Include="Based-Light\Base-Light-partice-3\Base-Light-3.fs" />
+    <None Include="Based-Light\Base-Light-partice-3\Base-Light-3.vs" />
+    <None Include="Based-Light\Base-Light-partice-4\Base-Light-4.fs" />
+    <None Include="Based-Light\Base-Light-partice-4\Base-Light-4.vs" />
+    <None Include="Based-Light\Base-Light.fs" />
+    <None Include="Based-Light\Base-Light.vs" />
+    <None Include="Blending\Blending.fs" />
+    <None Include="Blending\Blending.vs" />
+    <None Include="Bloom\Bloom-blur.fs" />
+    <None Include="Bloom\Bloom-blur.vs" />
+    <None Include="Bloom\Bloom-final.fs" />
+    <None Include="Bloom\Bloom-final.vs" />
+    <None Include="Bloom\Bloom-light.fs" />
+    <None Include="Bloom\Bloom-light.vs" />
+    <None Include="Bloom\Bloom.fs" />
+    <None Include="Bloom\Bloom.vs" />
+    <None Include="camera\camera.fs" />
+    <None Include="camera\camera.vs" />
+    <None Include="coordinate\coordinate.fs" />
+    <None Include="coordinate\coordinate.vs" />
+    <None Include="Cubemaps\Cubemaps-box.fs" />
+    <None Include="Cubemaps\Cubemaps-box.vs" />
+    <None Include="Cubemaps\Cubemaps-partice\Cubemaps-partice.fs" />
+    <None Include="Cubemaps\Cubemaps-partice\Cubemaps-partice.vs" />
+    <None Include="Cubemaps\Cubemaps.fs" />
+    <None Include="Cubemaps\Cubemaps.vs" />
+    <None Include="Depth-testing\Depth-testing.fs" />
+    <None Include="Depth-testing\Depth-testing.vs" />
+    <None Include="exchange\exchange.fs" />
+    <None Include="exchange\exchange.vs" />
+    <None Include="Face-culling\Face-culling.fs" />
+    <None Include="Face-culling\Face-culling.vs" />
+    <None Include="Framebuffers\Framebuffers-screen.fs" />
+    <None Include="Framebuffers\Framebuffers-screen.vs" />
+    <None Include="Framebuffers\Framebuffers.fs" />
+    <None Include="Framebuffers\Framebuffers.vs" />
+    <None Include="Gamma-Correction\Gamma-Correction.fs" />
+    <None Include="Gamma-Correction\Gamma-Correction.vs" />
+    <None Include="Geometry-Shader\Geometry-Shader-Explode.fs" />
+    <None Include="Geometry-Shader\Geometry-Shader-Explode.gs" />
+    <None Include="Geometry-Shader\Geometry-Shader-Explode.vs" />
+    <None Include="Geometry-Shader\Geometry-Shader.fs" />
+    <None Include="Geometry-Shader\Geometry-Shader.gs" />
+    <None Include="Geometry-Shader\Geometry-Shader.vs" />
+    <None Include="HDR\HDR.fs" />
+    <None Include="HDR\HDR.vs" />
+    <None Include="HDR\HDRshader.fs" />
+    <None Include="HDR\HDRshader.vs" />
+    <None Include="Instancing\Instancing-planet\Instancing-planet.fs" />
+    <None Include="Instancing\Instancing-planet\Instancing-planet.vs" />
+    <None Include="Instancing\Instancing-planet\Instancing-rock.fs" />
+    <None Include="Instancing\Instancing-planet\Instancing-rock.vs" />
+    <None Include="Instancing\Instancing.fs" />
+    <None Include="Instancing\Instancing.vs" />
+    <None Include="Light casters\Light-casters.fs" />
+    <None Include="Light casters\Light-casters.vs" />
+    <None Include="Light-color\Light-color.fs" />
+    <None Include="Light-color\Light-color.vs" />
+    <None Include="Light-color\Light.fs" />
+    <None Include="Lighting maps\Lighting-maps-partice-2\Lighting-maps-partice-2.fs" />
+    <None Include="Lighting maps\Lighting-maps-partice-4\Lighting-maps-partice-4.fs" />
+    <None Include="Lighting maps\Lighting-maps.fs" />
+    <None Include="Lighting maps\Lighting-maps.vs" />
+    <None Include="Materials\materials.fs" />
+    <None Include="Materials\materials.vs" />
+    <None Include="Model\Model.fs" />
+    <None Include="Model\Model.vs" />
+    <None Include="Multiple-lights\Multiple-lights-partice-2\Multiple-lights-partice-2.fs" />
+    <None Include="Multiple-lights\Multiple-lights.fs" />
+    <None Include="Multiple-lights\Multiple-lights.vs" />
+    <None Include="Normal-Mapping\Normal-Mapping.fs" />
+    <None Include="Normal-Mapping\Normal-Mapping.vs" />
+    <None Include="packages.config" />
+    <None Include="Parallax-Mapping\Parallax-Mapping.fs" />
+    <None Include="Parallax-Mapping\Parallax-Mapping.vs" />
+    <None Include="Point Shadows\Point-Depth-Shadows.fs" />
+    <None Include="Point Shadows\Point-Depth-Shadows.gs" />
+    <None Include="Point Shadows\Point-Depth-Shadows.vs" />
+    <None Include="Point Shadows\Point-Shadows.fs" />
+    <None Include="Point Shadows\Point-Shadows.vs" />
+    <None Include="shaders\homework\mywork.fs" />
+    <None Include="shaders\homework\partice-1\mywork-1.fs" />
+    <None Include="shaders\homework\partice-1\mywork-1.vs" />
+    <None Include="shaders\homework\partice-2\mywork-2.fs" />
+    <None Include="shaders\homework\partice-2\mywork-2.vs" />
+    <None Include="shaders\homework\partice-3\mywork-3.fs" />
+    <None Include="shaders\homework\partice-3\mywork-3.vs" />
+    <None Include="shaders\myshader.fs" />
+    <None Include="shaders\myshader.vs" />
+    <None Include="Shadow-Mapping\Shadow-Mapping-simple.fs" />
+    <None Include="Shadow-Mapping\Shadow-Mapping-simple.vs" />
+    <None Include="Shadow-Mapping\Shadow-Mapping.fs" />
+    <None Include="Shadow-Mapping\Shadow-Mapping.vs" />
+    <None Include="Shadow-Mapping\Shadow.fs" />
+    <None Include="Shadow-Mapping\Shadow.vs" />
+    <None Include="Stencil-testing\shaderSingleColor.fs" />
+    <None Include="Stencil-testing\shaderSingleColor.vs" />
+    <None Include="Stencil-testing\Stencil-testing.fs" />
+    <None Include="Stencil-testing\Stencil-testing.vs" />
+    <None Include="texture\texture-work-1\texture-1.fs" />
+    <None Include="texture\texture-work-4\texture-4.fs" />
+    <None Include="texture\texture.fs" />
+    <None Include="texture\texture.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Advanced-GLSL\Advanced-GLSL.cpp" />
+    <ClCompile Include="Advanced-Lighting\Advanced-Lighting.cpp" />
+    <ClCompile Include="Anti-Aliasing\Anti-Aliasing.cpp" />
+    <ClCompile Include="Based-Light\Base-Light-partice-1\Base-Light-partice-1.cpp" />
+    <ClCompile Include="Based-Light\Base-Light-partice-2\Base-Light-partice-2.cpp" />
+    <ClCompile Include="Based-Light\Base-Light-partice-3\Base-Light-partice-3.cpp" />
+    <ClCompile Include="Based-Light\Base-Light-partice-4\Base-Light-partice-4.cpp" />
+    <ClCompile Include="Based-Light\Based-Light.cpp" />
+    <ClCompile Include="Blending\Blending.cpp" />
+    <ClCompile Include="Bloom\Bloom.cpp" />
+    <ClCompile Include="camera\camera-partice-1\camera-partice-1.cpp" />
+    <ClCompile Include="camera\camera-partice-2\camera-partice-2.cpp" />
+    <ClCompile Include="camera\cameracpp.cpp" />
+    <ClCompile Include="coordinate\coordinate-partice-1\coordinate-1.cpp" />
+    <ClCompile Include="coordinate\coordinate.cpp" />
+    <ClCompile Include="Cubemaps\Cubemaps-partice\Cubemaps-partice.cpp" />
+    <ClCompile Include="Cubemaps\Cubemaps.cpp" />
+    <ClCompile Include="Depth-testing\Depth-testing.cpp" />
+    <ClCompile Include="E:\OpenGL\Packages\src\glad.c" />
+    <ClCompile Include="exchange\exchange-partice-1\exchange-1.cpp" />
+    <ClCompile Include="exchange\exchange-partice-2\exchange-2.cpp" />
+    <ClCompile Include="exchange\exchange.cpp" />
+    <ClCompile Include="Face-culling\Face-culling.cpp" />
+    <ClCompile Include="Framebuffers\Framebuffers.cpp" />
+    <ClCompile Include="Gamma-Correction\Gamma-Correction.cpp" />
+    <ClCompile Include="Geometry-Shader\Geometry-Shader.cpp" />
+    <ClCompile Include="HDR\HDR.cpp" />
+    <ClCompile Include="hello_triangle\hello_triangle.cpp" />
+    <ClCompile Include="hello_triangle\homework\triangle-partice-1.cpp" />
+    <ClCompile Include="hello_triangle\homework\triangle-partice-2.cpp" />
+    <ClCompile Include="hello_triangle\homework\triangle-partice-3.cpp" />
+    <ClCompile Include="hello_window\hello_window.cpp" />
+    <ClCompile Include="Instancing\Instancing-planet\Instancing-planet.cpp" />
+    <ClCompile Include="Instancing\Instancing.cpp" />
+    <ClCompile Include="Light casters\Light-casters.cpp" />
+    <ClCompile Include="Light-color\Light-color.cpp" />
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-1\Lighting-maps-partice-1.cpp" />
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-2\Lighting-maps-partice-2.cpp" />
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-3\Lighting-maps-partice-3.cpp" />
+    <ClCompile Include="Lighting maps\Lighting-maps-partice-4\Lighting-maps-partice-4.cpp" />
+    <ClCompile Include="Lighting maps\Lighting-maps.cpp" />
+    <ClCompile Include="Materials\Materials-partice-1\Materials-partice-1.cpp" />
+    <ClCompile Include="Materials\Materials.cpp" />
+    <ClCompile Include="Model\Model.cpp" />
+    <ClCompile Include="Multiple-lights\Multiple-lights-partice-2\Multiple-lights-partice-2.cpp" />
+    <ClCompile Include="Multiple-lights\Multiple-lights.cpp" />
+    <ClCompile Include="Normal-Mapping\Normal-Mapping.cpp" />
+    <ClCompile Include="Parallax-Mapping\Parallax-Mapping.cpp" />
+    <ClCompile Include="Point Shadows\Point-Shadows.cpp" />
+    <ClCompile Include="shaders\homework\partice-1\partice-1.cpp" />
+    <ClCompile Include="shaders\homework\partice-2\partice-2.cpp" />
+    <ClCompile Include="shaders\homework\partice-3\partice-3.cpp" />
+    <ClCompile Include="shaders\shaders.cpp" />
+    <ClCompile Include="shaders\shader_class.cpp" />
+    <ClCompile Include="Shadow-Mapping\Shadow-Mapping.cpp" />
+    <ClCompile Include="Stencil-testing\Stencil-testing.cpp" />
+    <ClCompile Include="texture\texture-work-1\texture-1.cpp" />
+    <ClCompile Include="texture\texture-work-2\texture-2.cpp" />
+    <ClCompile Include="texture\texture-work-3\texture-3.cpp" />
+    <ClCompile Include="texture\texture-work-4\texture-4.cpp" />
+    <ClCompile Include="texture\texture.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets" Condition="Exists('..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" />
+    <Import Project="..\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets" Condition="Exists('..\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets'))" />
+  </Target>
+</Project>

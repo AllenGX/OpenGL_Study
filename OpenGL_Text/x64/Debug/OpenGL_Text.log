@@ -1,0 +1,11 @@
+﻿  Bloom.cpp
+c:\users\hasee\source\repos\opengl_text\opengl_text\mesh.h(90): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(179): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(474): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(475): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(479): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(480): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(482): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(483): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\hasee\source\repos\opengl_text\opengl_text\bloom\bloom.cpp(492): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OpenGL_Text.vcxproj -> C:\Users\hasee\source\repos\OpenGL_Text\x64\Debug\OpenGL_Text.exe
